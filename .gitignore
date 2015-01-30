@@ -10,6 +10,6 @@
 /bin/
 /composer.phar
 #ignore eclips project
-.builpath
+.buildpath
 .project
-.setting/
+.settings/
