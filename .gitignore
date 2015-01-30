@@ -9,3 +9,7 @@
 /vendor/
 /bin/
 /composer.phar
+#ignore eclips project
+.builpath
+.project
+.setting/
