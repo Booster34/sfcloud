@@ -1,0 +1,6 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+<h2>Liste des articles de {{ utilisateur.login }}</h2>
+{% include "HBBlogBundle:Article:listArticles.html.twig" %}
+<p><a href="{{ path('utilisateur_list') }}">Retour a la liste des utilisateurs</a></p>
+{% endblock %}

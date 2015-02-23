@@ -4,5 +4,10 @@ hb_blog:
     prefix:   /
 
 app:
-    resource: @AppBundle/Controller/
+    resource: "@AppBundle/Controller/"
     type:     annotation
+
+    # app/config/routing.yml
+_besimple_soap:
+    resource: "@BeSimpleSoapBundle/Resources/config/routing/webservicecontroller.xml"
+    prefix:   /ws
